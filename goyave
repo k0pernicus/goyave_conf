@@ -2,7 +2,7 @@ Author = "antonin"
 
 [local]
   DefaultTarget = "VISIBLE"
-  Group = "mbp-de-antonin.home"
+  Group = "macbook-de-k0pernicus"
 
 [[repositories]]
   Name = "color"
@@ -40,6 +40,11 @@ Author = "antonin"
   URL = "https://github.com/k0pernicus/goyave"
 
 [[repositories]]
+  Name = "goyave_conf"
+  Path = "/Users/antonin/Code/goyave_conf"
+  URL = "https://github.com/k0pernicus/goyave_conf"
+
+[[repositories]]
   Name = "impl"
   Path = "/Users/antonin/Code/go/src/github.com/josharian/impl"
   URL = "https://github.com/josharian/impl"
@@ -59,6 +64,15 @@ Author = "antonin"
   Path = "/Users/antonin/Code/go/src/github.com/BurntSushi/toml"
   URL = "https://github.com/BurntSushi/toml"
 
+[[repositories]]
+  Name = "zou"
+  Path = "/Users/antonin/Code/rust/zou"
+  URL = "https://github.com/k0pernicus/zou"
+
 [[group]]
-  Name = "mbp-de-antonin.home"
+  Name = "macbook-de-k0pernicus"
+  VisibleRepositories = ["goyave", "goyave_conf"]
+
+[[group]]
+  Name = "OBANDO"
   VisibleRepositories = ["goyave"]
