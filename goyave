@@ -1,0 +1,64 @@
+Author = "antonin"
+
+[local]
+  DefaultTarget = "VISIBLE"
+  Group = "mbp-de-antonin.home"
+
+[[repositories]]
+  Name = "color"
+  Path = "/Users/antonin/Code/go/src/github.com/fatih/color"
+  URL = "https://github.com/fatih/color"
+
+[[repositories]]
+  Name = "git2go.v25"
+  Path = "/Users/antonin/Code/go/src/gopkg.in/libgit2/git2go.v25"
+  URL = "https://gopkg.in/libgit2/git2go.v25"
+
+[[repositories]]
+  Name = "godef"
+  Path = "/Users/antonin/Code/go/src/github.com/spf13/cobra"
+  URL = "https://github.com/spf13/cobra"
+
+[[repositories]]
+  Name = "gomodifytags"
+  Path = "/Users/antonin/Code/go/src/github.com/fatih/gomodifytags"
+  URL = "https://github.com/fatih/gomodifytags"
+
+[[repositories]]
+  Name = "gopkgs"
+  Path = "/Users/antonin/Code/go/src/github.com/tpng/gopkgs"
+  URL = "https://github.com/tpng/gopkgs"
+
+[[repositories]]
+  Name = "goreturns"
+  Path = "/Users/antonin/Code/go/src/github.com/sqs/goreturns"
+  URL = "https://github.com/sqs/goreturns"
+
+[[repositories]]
+  Name = "goyave"
+  Path = "/Users/antonin/Code/go/src/github.com/k0pernicus/goyave"
+  URL = "https://github.com/k0pernicus/goyave"
+
+[[repositories]]
+  Name = "impl"
+  Path = "/Users/antonin/Code/go/src/github.com/josharian/impl"
+  URL = "https://github.com/josharian/impl"
+
+[[repositories]]
+  Name = "lint"
+  Path = "/Users/antonin/Code/go/src/github.com/golang/lint"
+  URL = "https://github.com/golang/lint"
+
+[[repositories]]
+  Name = "pflag"
+  Path = "/Users/antonin/Code/go/src/github.com/spf13/pflag"
+  URL = "https://github.com/spf13/pflag"
+
+[[repositories]]
+  Name = "toml"
+  Path = "/Users/antonin/Code/go/src/github.com/BurntSushi/toml"
+  URL = "https://github.com/BurntSushi/toml"
+
+[[group]]
+  Name = "mbp-de-antonin.home"
+  VisibleRepositories = ["goyave"]
