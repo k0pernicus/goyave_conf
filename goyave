@@ -1,161 +1,178 @@
 Author = "antonin"
 
 [local]
-  DefaultTarget = "HIDDEN"
+  DefaultTarget = "VISIBLE"
   Group = "macbook-de-k0pernicus"
 
-[[repositories]]
-  Name = "cobra"
-  URL = "https://github.com/spf13/cobra"
+[repositories]
+  [repositories.arOS]
+    name = "arOS"
+    url = "https://github.com/k0pernicus/arOS"
+    [repositories.arOS.paths]
+      [repositories.arOS.paths.macbook-de-k0pernicus]
+        Name = "arOS"
+        Path = "/Users/antonin/Code/arOS"
+  [repositories.books]
+    name = "books"
+    url = "https://github.com/miguellgt/books"
+    [repositories.books.paths]
+      [repositories.books.paths.macbook-de-k0pernicus]
+        Name = "books"
+        Path = "/Users/antonin/Documents/books"
+  [repositories.choosenim]
+    name = "choosenim"
+    url = "https://github.com/dom96/choosenim"
+    [repositories.choosenim.paths]
+      [repositories.choosenim.paths.macbook-de-k0pernicus]
+        Name = "choosenim"
+        Path = "/Users/antonin/Code/nim/choosenim"
+  [repositories.cobra]
+    name = "cobra"
+    url = "https://github.com/spf13/cobra"
+    [repositories.cobra.paths]
+      [repositories.cobra.paths.macbook-de-k0pernicus]
+        Name = "cobra"
+        Path = "/Users/antonin/Code/go/src/github.com/spf13/cobra"
+  [repositories.color]
+    name = "color"
+    url = "https://github.com/fatih/color"
+    [repositories.color.paths]
+      [repositories.color.paths.macbook-de-k0pernicus]
+        Name = "color"
+        Path = "/Users/antonin/Code/go/src/github.com/fatih/color"
+  [repositories.database]
+    name = "database"
+    url = ""
+    [repositories.database.paths]
+      [repositories.database.paths.macbook-de-k0pernicus]
+        Name = "database"
+        Path = "/Users/antonin/Library/Containers/com.docker.docker/Data/database"
+  [repositories."git2go.v25"]
+    name = "git2go.v25"
+    url = "https://gopkg.in/libgit2/git2go.v25"
+    [repositories."git2go.v25".paths]
+      [repositories."git2go.v25".paths.macbook-de-k0pernicus]
+        Name = "git2go.v25"
+        Path = "/Users/antonin/Code/go/src/gopkg.in/libgit2/git2go.v25"
+  [repositories.go-outline]
+    name = "go-outline"
+    url = "https://github.com/ramya-rao-a/go-outline"
+    [repositories.go-outline.paths]
+      [repositories.go-outline.paths.macbook-de-k0pernicus]
+        Name = "go-outline"
+        Path = "/Users/antonin/Code/go/src/github.com/ramya-rao-a/go-outline"
+  [repositories.go-symbols]
+    name = "go-symbols"
+    url = "https://github.com/acroca/go-symbols"
+    [repositories.go-symbols.paths]
+      [repositories.go-symbols.paths.macbook-de-k0pernicus]
+        Name = "go-symbols"
+        Path = "/Users/antonin/Code/go/src/github.com/acroca/go-symbols"
+  [repositories.gocode]
+    name = "gocode"
+    url = "https://github.com/nsf/gocode"
+    [repositories.gocode.paths]
+      [repositories.gocode.paths.macbook-de-k0pernicus]
+        Name = "gocode"
+        Path = "/Users/antonin/Code/go/src/github.com/nsf/gocode"
+  [repositories.godef]
+    name = "godef"
+    url = "https://github.com/rogpeppe/godef"
+    [repositories.godef.paths]
+      [repositories.godef.paths.macbook-de-k0pernicus]
+        Name = "godef"
+        Path = "/Users/antonin/Code/go/src/github.com/rogpeppe/godef"
+  [repositories.gomodifytags]
+    name = "gomodifytags"
+    url = "https://github.com/fatih/gomodifytags"
+    [repositories.gomodifytags.paths]
+      [repositories.gomodifytags.paths.macbook-de-k0pernicus]
+        Name = "gomodifytags"
+        Path = "/Users/antonin/Code/go/src/github.com/fatih/gomodifytags"
+  [repositories.gopkgs]
+    name = "gopkgs"
+    url = "https://github.com/tpng/gopkgs"
+    [repositories.gopkgs.paths]
+      [repositories.gopkgs.paths.macbook-de-k0pernicus]
+        Name = "gopkgs"
+        Path = "/Users/antonin/Code/go/src/github.com/tpng/gopkgs"
+  [repositories.goreturns]
+    name = "goreturns"
+    url = "https://github.com/sqs/goreturns"
+    [repositories.goreturns.paths]
+      [repositories.goreturns.paths.macbook-de-k0pernicus]
+        Name = "goreturns"
+        Path = "/Users/antonin/Code/go/src/github.com/sqs/goreturns"
+  [repositories.gotests]
+    name = "gotests"
+    url = "https://github.com/cweill/gotests"
+    [repositories.gotests.paths]
+      [repositories.gotests.paths.macbook-de-k0pernicus]
+        Name = "gotests"
+        Path = "/Users/antonin/Code/go/src/github.com/cweill/gotests"
+  [repositories.goyave]
+    name = "goyave"
+    url = "https://github.com/k0pernicus/goyave"
+    [repositories.goyave.paths]
+      [repositories.goyave.paths.macbook-de-k0pernicus]
+        Name = "goyave"
+        Path = "/Users/antonin/Code/go/src/github.com/k0pernicus/goyave"
+  [repositories.goyave_conf]
+    name = "goyave_conf"
+    url = "https://github.com/k0pernicus/goyave_conf"
+    [repositories.goyave_conf.paths]
+      [repositories.goyave_conf.paths.macbook-de-k0pernicus]
+        Name = "goyave_conf"
+        Path = "/Users/antonin/Code/goyave_conf"
+  [repositories.impl]
+    name = "impl"
+    url = "https://github.com/josharian/impl"
+    [repositories.impl.paths]
+      [repositories.impl.paths.macbook-de-k0pernicus]
+        Name = "impl"
+        Path = "/Users/antonin/Code/go/src/github.com/josharian/impl"
+  [repositories.lint]
+    name = "lint"
+    url = "https://github.com/golang/lint"
+    [repositories.lint.paths]
+      [repositories.lint.paths.macbook-de-k0pernicus]
+        Name = "lint"
+        Path = "/Users/antonin/Code/go/src/github.com/golang/lint"
+  [repositories.pflag]
+    name = "pflag"
+    url = "https://github.com/spf13/pflag"
+    [repositories.pflag.paths]
+      [repositories.pflag.paths.macbook-de-k0pernicus]
+        Name = "pflag"
+        Path = "/Users/antonin/Code/go/src/github.com/spf13/pflag"
+  [repositories.toml]
+    name = "toml"
+    url = "https://github.com/BurntSushi/toml"
+    [repositories.toml.paths]
+      [repositories.toml.paths.macbook-de-k0pernicus]
+        Name = "toml"
+        Path = "/Users/antonin/Code/go/src/github.com/BurntSushi/toml"
+  [repositories.tools]
+    name = "tools"
+    url = "https://go.googlesource.com/tools"
+    [repositories.tools.paths]
+      [repositories.tools.paths.macbook-de-k0pernicus]
+        Name = "tools"
+        Path = "/Users/antonin/Code/go/src/golang.org/x/tools"
+  [repositories.website]
+    name = "website"
+    url = "https://github.com/k0pernicus/website"
+    [repositories.website.paths]
+      [repositories.website.paths.macbook-de-k0pernicus]
+        Name = "website"
+        Path = "/Users/antonin/Documents/website"
+  [repositories.zou]
+    name = "zou"
+    url = "https://github.com/k0pernicus/zou"
+    [repositories.zou.paths]
+      [repositories.zou.paths.macbook-de-k0pernicus]
+        Name = "zou"
+        Path = "/Users/antonin/Code/rust/zou"
 
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/github.com/spf13/cobra"
-
-[[repositories]]
-  Name = "color"
-  URL = "https://github.com/fatih/color"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/github.com/fatih/color"
-
-[[repositories]]
-  Name = "git2go.v25"
-  URL = "https://gopkg.in/libgit2/git2go.v25"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/gopkg.in/libgit2/git2go.v25"
-
-[[repositories]]
-  Name = "go-outline"
-  URL = "https://github.com/ramya-rao-a/go-outline"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/github.com/ramya-rao-a/go-outline"
-
-[[repositories]]
-  Name = "go-symbols"
-  URL = "https://github.com/acroca/go-symbols"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/github.com/acroca/go-symbols"
-
-[[repositories]]
-  Name = "gocode"
-  URL = "https://github.com/nsf/gocode"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/github.com/nsf/gocode"
-
-[[repositories]]
-  Name = "godef"
-  URL = "https://github.com/rogpeppe/godef"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/github.com/rogpeppe/godef"
-
-[[repositories]]
-  Name = "gomodifytags"
-  URL = "https://github.com/fatih/gomodifytags"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/github.com/fatih/gomodifytags"
-
-[[repositories]]
-  Name = "gopkgs"
-  URL = "https://github.com/tpng/gopkgs"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/github.com/tpng/gopkgs"
-
-[[repositories]]
-  Name = "goreturns"
-  URL = "https://github.com/sqs/goreturns"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/sourcegraph.com/sqs/goreturns"
-
-[[repositories]]
-  Name = "gotests"
-  URL = "https://github.com/cweill/gotests"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/github.com/cweill/gotests"
-
-[[repositories]]
-  Name = "goyave"
-  URL = "https://github.com/k0pernicus/goyave"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/github.com/k0pernicus/goyave"
-
-[[repositories]]
-  Name = "goyave_conf"
-  URL = "https://github.com/k0pernicus/goyave_conf"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/goyave_conf"
-
-[[repositories]]
-  Name = "impl"
-  URL = "https://github.com/josharian/impl"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/github.com/josharian/impl"
-
-[[repositories]]
-  Name = "lint"
-  URL = "https://github.com/golang/lint"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/github.com/golang/lint"
-
-[[repositories]]
-  Name = "pflag"
-  URL = "https://github.com/spf13/pflag"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/github.com/spf13/pflag"
-
-[[repositories]]
-  Name = "toml"
-  URL = "https://github.com/BurntSushi/toml"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/github.com/BurntSushi/toml"
-
-[[repositories]]
-  Name = "tools"
-  URL = "https://go.googlesource.com/tools"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/go/src/golang.org/x/tools"
-
-[[repositories]]
-  Name = "zou"
-  URL = "https://github.com/k0pernicus/zou"
-
-  [[repositories.paths]]
-    Name = "macbook-de-k0pernicus"
-    Path = "/Users/antonin/Code/rust/zou"
-
-[[group]]
-  Name = "macbook-de-k0pernicus"
-  VisibleRepositories = ["zou", "goyave", "goyave_conf"]
+[group]
+  macbook-de-k0pernicus = ["goyave", "zou", "goyave_conf", "website", "arOS"]
