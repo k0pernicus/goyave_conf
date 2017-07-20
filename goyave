@@ -5,6 +5,34 @@ Author = "antonin"
   Group = "macbook-de-k0pernicus"
 
 [repositories]
+  [repositories.39b553922d45252e16f7a4b8900602aa]
+    name = "39b553922d45252e16f7a4b8900602aa"
+    url = "https://github.com/enahum/redux-offline.git"
+    [repositories.39b553922d45252e16f7a4b8900602aa.paths]
+      [repositories.39b553922d45252e16f7a4b8900602aa.paths.toronto]
+        Name = "39b553922d45252e16f7a4b8900602aa"
+        Path = "/home/antonin/.cache/yarn/v1/.tmp/39b553922d45252e16f7a4b8900602aa"
+  [repositories.ace]
+    name = "ace"
+    url = "https://github.com/yosssi/ace"
+    [repositories.ace.paths]
+      [repositories.ace.paths.toronto]
+        Name = "ace"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/yosssi/ace"
+  [repositories.afero]
+    name = "afero"
+    url = "https://github.com/spf13/afero"
+    [repositories.afero.paths]
+      [repositories.afero.paths.toronto]
+        Name = "afero"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/spf13/afero"
+  [repositories.amber]
+    name = "amber"
+    url = "https://github.com/eknkc/amber"
+    [repositories.amber.paths]
+      [repositories.amber.paths.toronto]
+        Name = "amber"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/eknkc/amber"
   [repositories.arOS]
     name = "arOS"
     url = "https://github.com/k0pernicus/arOS"
@@ -12,6 +40,13 @@ Author = "antonin"
       [repositories.arOS.paths.macbook-de-k0pernicus]
         Name = "arOS"
         Path = "/Users/antonin/Code/arOS"
+  [repositories.blackfriday]
+    name = "blackfriday"
+    url = "https://github.com/russross/blackfriday"
+    [repositories.blackfriday.paths]
+      [repositories.blackfriday.paths.toronto]
+        Name = "blackfriday"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/russross/blackfriday"
   [repositories.books]
     name = "books"
     url = "https://github.com/miguellgt/books"
@@ -19,6 +54,13 @@ Author = "antonin"
       [repositories.books.paths.macbook-de-k0pernicus]
         Name = "books"
         Path = "/Users/antonin/Documents/books"
+  [repositories.cast]
+    name = "cast"
+    url = "https://github.com/spf13/cast"
+    [repositories.cast.paths]
+      [repositories.cast.paths.toronto]
+        Name = "cast"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/spf13/cast"
   [repositories.choosenim]
     name = "choosenim"
     url = "https://github.com/dom96/choosenim"
@@ -33,6 +75,9 @@ Author = "antonin"
       [repositories.cobra.paths.macbook-de-k0pernicus]
         Name = "cobra"
         Path = "/Users/antonin/Code/go/src/github.com/spf13/cobra"
+      [repositories.cobra.paths.toronto]
+        Name = "cobra"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/spf13/cobra"
   [repositories.color]
     name = "color"
     url = "https://github.com/fatih/color"
@@ -40,6 +85,23 @@ Author = "antonin"
       [repositories.color.paths.macbook-de-k0pernicus]
         Name = "color"
         Path = "/Users/antonin/Code/go/src/github.com/fatih/color"
+      [repositories.color.paths.toronto]
+        Name = "color"
+        Path = "/home/antonin/Code/go/src/github.com/fatih/color"
+  [repositories.crypto]
+    name = "crypto"
+    url = "https://go.googlesource.com/crypto"
+    [repositories.crypto.paths]
+      [repositories.crypto.paths.toronto]
+        Name = "crypto"
+        Path = "/home/antonin/Code/go/.cache/govendor/golang.org/x/crypto"
+  [repositories.cssmin]
+    name = "cssmin"
+    url = "https://github.com/dchest/cssmin"
+    [repositories.cssmin.paths]
+      [repositories.cssmin.paths.toronto]
+        Name = "cssmin"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/dchest/cssmin"
   [repositories.database]
     name = "database"
     url = ""
@@ -47,6 +109,55 @@ Author = "antonin"
       [repositories.database.paths.macbook-de-k0pernicus]
         Name = "database"
         Path = "/Users/antonin/Library/Containers/com.docker.docker/Data/database"
+  [repositories.delve]
+    name = "delve"
+    url = "https://github.com/derekparker/delve"
+    [repositories.delve.paths]
+      [repositories.delve.paths.toronto]
+        Name = "delve"
+        Path = "/home/antonin/Code/go/src/github.com/derekparker/delve"
+  [repositories.emoji]
+    name = "emoji"
+    url = "https://github.com/kyokomi/emoji"
+    [repositories.emoji.paths]
+      [repositories.emoji.paths.toronto]
+        Name = "emoji"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/kyokomi/emoji"
+  [repositories.errors]
+    name = "errors"
+    url = "https://github.com/pkg/errors"
+    [repositories.errors.paths]
+      [repositories.errors.paths.toronto]
+        Name = "errors"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/pkg/errors"
+  [repositories.fs]
+    name = "fs"
+    url = "https://github.com/kr/fs"
+    [repositories.fs.paths]
+      [repositories.fs.paths.toronto]
+        Name = "fs"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/kr/fs"
+  [repositories.fsnotify]
+    name = "fsnotify"
+    url = "https://github.com/fsnotify/fsnotify"
+    [repositories.fsnotify.paths]
+      [repositories.fsnotify.paths.toronto]
+        Name = "fsnotify"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/fsnotify/fsnotify"
+  [repositories.fsync]
+    name = "fsync"
+    url = "https://github.com/spf13/fsync"
+    [repositories.fsync.paths]
+      [repositories.fsync.paths.toronto]
+        Name = "fsync"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/spf13/fsync"
+  [repositories.ghostwriter]
+    name = "ghostwriter"
+    url = "https://github.com/jbub/ghostwriter"
+    [repositories.ghostwriter.paths]
+      [repositories.ghostwriter.paths.toronto]
+        Name = "ghostwriter"
+        Path = "/home/antonin/Documents/website/themes/ghostwriter"
   [repositories."git2go.v25"]
     name = "git2go.v25"
     url = "https://gopkg.in/libgit2/git2go.v25"
@@ -54,6 +165,51 @@ Author = "antonin"
       [repositories."git2go.v25".paths.macbook-de-k0pernicus]
         Name = "git2go.v25"
         Path = "/Users/antonin/Code/go/src/gopkg.in/libgit2/git2go.v25"
+      [repositories."git2go.v25".paths.toronto]
+        Name = "git2go.v25"
+        Path = "/home/antonin/Code/go/src/gopkg.in/libgit2/git2go.v25"
+  [repositories."github.com-1ecc6299db9ec823"]
+    name = "github.com-1ecc6299db9ec823"
+    url = ""
+    [repositories."github.com-1ecc6299db9ec823".paths]
+      [repositories."github.com-1ecc6299db9ec823".paths.toronto]
+        Name = "github.com-1ecc6299db9ec823"
+        Path = "/home/antonin/.cargo/registry/index/github.com-1ecc6299db9ec823"
+  [repositories.gitmap]
+    name = "gitmap"
+    url = "https://github.com/bep/gitmap"
+    [repositories.gitmap.paths]
+      [repositories.gitmap.paths.toronto]
+        Name = "gitmap"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/bep/gitmap"
+  [repositories.go-buffruneio]
+    name = "go-buffruneio"
+    url = "https://github.com/pelletier/go-buffruneio"
+    [repositories.go-buffruneio.paths]
+      [repositories.go-buffruneio.paths.toronto]
+        Name = "go-buffruneio"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/pelletier/go-buffruneio"
+  [repositories.go-i18n]
+    name = "go-i18n"
+    url = "https://github.com/nicksnyder/go-i18n"
+    [repositories.go-i18n.paths]
+      [repositories.go-i18n.paths.toronto]
+        Name = "go-i18n"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/nicksnyder/go-i18n"
+  [repositories.go-immutable-radix]
+    name = "go-immutable-radix"
+    url = "https://github.com/hashicorp/go-immutable-radix"
+    [repositories.go-immutable-radix.paths]
+      [repositories.go-immutable-radix.paths.toronto]
+        Name = "go-immutable-radix"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/hashicorp/go-immutable-radix"
+  [repositories.go-md2man]
+    name = "go-md2man"
+    url = "https://github.com/cpuguy83/go-md2man"
+    [repositories.go-md2man.paths]
+      [repositories.go-md2man.paths.toronto]
+        Name = "go-md2man"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/cpuguy83/go-md2man"
   [repositories.go-outline]
     name = "go-outline"
     url = "https://github.com/ramya-rao-a/go-outline"
@@ -61,6 +217,9 @@ Author = "antonin"
       [repositories.go-outline.paths.macbook-de-k0pernicus]
         Name = "go-outline"
         Path = "/Users/antonin/Code/go/src/github.com/ramya-rao-a/go-outline"
+      [repositories.go-outline.paths.toronto]
+        Name = "go-outline"
+        Path = "/home/antonin/Code/go/src/github.com/ramya-rao-a/go-outline"
   [repositories.go-symbols]
     name = "go-symbols"
     url = "https://github.com/acroca/go-symbols"
@@ -68,6 +227,16 @@ Author = "antonin"
       [repositories.go-symbols.paths.macbook-de-k0pernicus]
         Name = "go-symbols"
         Path = "/Users/antonin/Code/go/src/github.com/acroca/go-symbols"
+      [repositories.go-symbols.paths.toronto]
+        Name = "go-symbols"
+        Path = "/home/antonin/Code/go/src/github.com/acroca/go-symbols"
+  [repositories.go-toml]
+    name = "go-toml"
+    url = "https://github.com/pelletier/go-toml"
+    [repositories.go-toml.paths]
+      [repositories.go-toml.paths.toronto]
+        Name = "go-toml"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/pelletier/go-toml"
   [repositories.gocode]
     name = "gocode"
     url = "https://github.com/nsf/gocode"
@@ -75,6 +244,9 @@ Author = "antonin"
       [repositories.gocode.paths.macbook-de-k0pernicus]
         Name = "gocode"
         Path = "/Users/antonin/Code/go/src/github.com/nsf/gocode"
+      [repositories.gocode.paths.toronto]
+        Name = "gocode"
+        Path = "/home/antonin/Code/go/src/github.com/nsf/gocode"
   [repositories.godef]
     name = "godef"
     url = "https://github.com/rogpeppe/godef"
@@ -82,6 +254,16 @@ Author = "antonin"
       [repositories.godef.paths.macbook-de-k0pernicus]
         Name = "godef"
         Path = "/Users/antonin/Code/go/src/github.com/rogpeppe/godef"
+      [repositories.godef.paths.toronto]
+        Name = "godef"
+        Path = "/home/antonin/Code/go/src/github.com/rogpeppe/godef"
+  [repositories.golang-lru]
+    name = "golang-lru"
+    url = "https://github.com/hashicorp/golang-lru"
+    [repositories.golang-lru.paths]
+      [repositories.golang-lru.paths.toronto]
+        Name = "golang-lru"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/hashicorp/golang-lru"
   [repositories.gomodifytags]
     name = "gomodifytags"
     url = "https://github.com/fatih/gomodifytags"
@@ -89,6 +271,16 @@ Author = "antonin"
       [repositories.gomodifytags.paths.macbook-de-k0pernicus]
         Name = "gomodifytags"
         Path = "/Users/antonin/Code/go/src/github.com/fatih/gomodifytags"
+      [repositories.gomodifytags.paths.toronto]
+        Name = "gomodifytags"
+        Path = "/home/antonin/Code/go/src/github.com/fatih/gomodifytags"
+  [repositories.goorgeous]
+    name = "goorgeous"
+    url = "https://github.com/chaseadamsio/goorgeous"
+    [repositories.goorgeous.paths]
+      [repositories.goorgeous.paths.toronto]
+        Name = "goorgeous"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/chaseadamsio/goorgeous"
   [repositories.gopkgs]
     name = "gopkgs"
     url = "https://github.com/tpng/gopkgs"
@@ -96,6 +288,9 @@ Author = "antonin"
       [repositories.gopkgs.paths.macbook-de-k0pernicus]
         Name = "gopkgs"
         Path = "/Users/antonin/Code/go/src/github.com/tpng/gopkgs"
+      [repositories.gopkgs.paths.toronto]
+        Name = "gopkgs"
+        Path = "/home/antonin/Code/go/src/github.com/tpng/gopkgs"
   [repositories.goreturns]
     name = "goreturns"
     url = "https://github.com/sqs/goreturns"
@@ -103,6 +298,9 @@ Author = "antonin"
       [repositories.goreturns.paths.macbook-de-k0pernicus]
         Name = "goreturns"
         Path = "/Users/antonin/Code/go/src/github.com/sqs/goreturns"
+      [repositories.goreturns.paths.toronto]
+        Name = "goreturns"
+        Path = "/home/antonin/Code/go/src/github.com/sqs/goreturns"
   [repositories.gotests]
     name = "gotests"
     url = "https://github.com/cweill/gotests"
@@ -110,6 +308,16 @@ Author = "antonin"
       [repositories.gotests.paths.macbook-de-k0pernicus]
         Name = "gotests"
         Path = "/Users/antonin/Code/go/src/github.com/cweill/gotests"
+      [repositories.gotests.paths.toronto]
+        Name = "gotests"
+        Path = "/home/antonin/Code/go/src/github.com/cweill/gotests"
+  [repositories.govendor]
+    name = "govendor"
+    url = "https://github.com/kardianos/govendor"
+    [repositories.govendor.paths]
+      [repositories.govendor.paths.toronto]
+        Name = "govendor"
+        Path = "/home/antonin/Code/go/src/github.com/kardianos/govendor"
   [repositories.goyave]
     name = "goyave"
     url = "https://github.com/k0pernicus/goyave"
@@ -117,6 +325,9 @@ Author = "antonin"
       [repositories.goyave.paths.macbook-de-k0pernicus]
         Name = "goyave"
         Path = "/Users/antonin/Code/go/src/github.com/k0pernicus/goyave"
+      [repositories.goyave.paths.toronto]
+        Name = "goyave"
+        Path = "/home/antonin/Code/go/src/github.com/k0pernicus/goyave"
   [repositories.goyave_conf]
     name = "goyave_conf"
     url = "https://github.com/k0pernicus/goyave_conf"
@@ -124,6 +335,23 @@ Author = "antonin"
       [repositories.goyave_conf.paths.macbook-de-k0pernicus]
         Name = "goyave_conf"
         Path = "/Users/antonin/Code/goyave_conf"
+      [repositories.goyave_conf.paths.toronto]
+        Name = "goyave_conf"
+        Path = "/home/antonin/goyave_conf"
+  [repositories.hcl]
+    name = "hcl"
+    url = "https://github.com/hashicorp/hcl"
+    [repositories.hcl.paths]
+      [repositories.hcl.paths.toronto]
+        Name = "hcl"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/hashicorp/hcl"
+  [repositories.hugo]
+    name = "hugo"
+    url = "https://github.com/gohugoio/hugo"
+    [repositories.hugo.paths]
+      [repositories.hugo.paths.toronto]
+        Name = "hugo"
+        Path = "/home/antonin/Code/go/src/github.com/gohugoio/hugo"
   [repositories.impl]
     name = "impl"
     url = "https://github.com/josharian/impl"
@@ -131,6 +359,30 @@ Author = "antonin"
       [repositories.impl.paths.macbook-de-k0pernicus]
         Name = "impl"
         Path = "/Users/antonin/Code/go/src/github.com/josharian/impl"
+      [repositories.impl.paths.toronto]
+        Name = "impl"
+        Path = "/home/antonin/Code/go/src/github.com/josharian/impl"
+  [repositories.inflect]
+    name = "inflect"
+    url = "https://github.com/bep/inflect"
+    [repositories.inflect.paths]
+      [repositories.inflect.paths.toronto]
+        Name = "inflect"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/bep/inflect"
+  [repositories.jwalterweatherman]
+    name = "jwalterweatherman"
+    url = "https://github.com/spf13/jwalterweatherman"
+    [repositories.jwalterweatherman.paths]
+      [repositories.jwalterweatherman.paths.toronto]
+        Name = "jwalterweatherman"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/spf13/jwalterweatherman"
+  [repositories.leaktest]
+    name = "leaktest"
+    url = "https://github.com/fortytw2/leaktest"
+    [repositories.leaktest.paths]
+      [repositories.leaktest.paths.toronto]
+        Name = "leaktest"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/fortytw2/leaktest"
   [repositories.lint]
     name = "lint"
     url = "https://github.com/golang/lint"
@@ -138,6 +390,51 @@ Author = "antonin"
       [repositories.lint.paths.macbook-de-k0pernicus]
         Name = "lint"
         Path = "/Users/antonin/Code/go/src/github.com/golang/lint"
+      [repositories.lint.paths.toronto]
+        Name = "lint"
+        Path = "/home/antonin/Code/go/src/github.com/golang/lint"
+  [repositories.mapstructure]
+    name = "mapstructure"
+    url = "https://github.com/mitchellh/mapstructure"
+    [repositories.mapstructure.paths]
+      [repositories.mapstructure.paths.toronto]
+        Name = "mapstructure"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/mitchellh/mapstructure"
+  [repositories.mmark]
+    name = "mmark"
+    url = "https://github.com/miekg/mmark"
+    [repositories.mmark.paths]
+      [repositories.mmark.paths.toronto]
+        Name = "mmark"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/miekg/mmark"
+  [repositories.mousetrap]
+    name = "mousetrap"
+    url = "https://github.com/inconshreveable/mousetrap"
+    [repositories.mousetrap.paths]
+      [repositories.mousetrap.paths.toronto]
+        Name = "mousetrap"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/inconshreveable/mousetrap"
+  [repositories.net]
+    name = "net"
+    url = "https://go.googlesource.com/net"
+    [repositories.net.paths]
+      [repositories.net.paths.toronto]
+        Name = "net"
+        Path = "/home/antonin/Code/go/.cache/govendor/golang.org/x/net"
+  [repositories.nitro]
+    name = "nitro"
+    url = "https://github.com/spf13/nitro"
+    [repositories.nitro.paths]
+      [repositories.nitro.paths.toronto]
+        Name = "nitro"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/spf13/nitro"
+  [repositories.osext]
+    name = "osext"
+    url = "https://github.com/kardianos/osext"
+    [repositories.osext.paths]
+      [repositories.osext.paths.toronto]
+        Name = "osext"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/kardianos/osext"
   [repositories.pflag]
     name = "pflag"
     url = "https://github.com/spf13/pflag"
@@ -145,6 +442,72 @@ Author = "antonin"
       [repositories.pflag.paths.macbook-de-k0pernicus]
         Name = "pflag"
         Path = "/Users/antonin/Code/go/src/github.com/spf13/pflag"
+      [repositories.pflag.paths.toronto]
+        Name = "pflag"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/spf13/pflag"
+  [repositories.properties]
+    name = "properties"
+    url = "https://github.com/magiconair/properties"
+    [repositories.properties.paths]
+      [repositories.properties.paths.toronto]
+        Name = "properties"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/magiconair/properties"
+  [repositories.purell]
+    name = "purell"
+    url = "https://github.com/PuerkitoBio/purell"
+    [repositories.purell.paths]
+      [repositories.purell.paths.toronto]
+        Name = "purell"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/PuerkitoBio/purell"
+  [repositories.rls_vscode]
+    name = "rls_vscode"
+    url = "https://github.com/jonathandturner/rls_vscode.git"
+    [repositories.rls_vscode.paths]
+      [repositories.rls_vscode.paths.toronto]
+        Name = "rls_vscode"
+        Path = "/home/antonin/Code/rls_vscode"
+  [repositories.sanitized_anchor_name]
+    name = "sanitized_anchor_name"
+    url = "https://github.com/shurcooL/sanitized_anchor_name"
+    [repositories.sanitized_anchor_name.paths]
+      [repositories.sanitized_anchor_name.paths.toronto]
+        Name = "sanitized_anchor_name"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/shurcooL/sanitized_anchor_name"
+  [repositories.sftp]
+    name = "sftp"
+    url = "https://github.com/pkg/sftp"
+    [repositories.sftp.paths]
+      [repositories.sftp.paths.toronto]
+        Name = "sftp"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/pkg/sftp"
+  [repositories.snatch]
+    name = "snatch"
+    url = "https://github.com/k0pernicus/snatch"
+    [repositories.snatch.paths]
+      [repositories.snatch.paths.toronto]
+        Name = "snatch"
+        Path = "/home/antonin/Code/snatch"
+  [repositories.sys]
+    name = "sys"
+    url = "https://go.googlesource.com/sys"
+    [repositories.sys.paths]
+      [repositories.sys.paths.toronto]
+        Name = "sys"
+        Path = "/home/antonin/Code/go/.cache/govendor/golang.org/x/sys"
+  [repositories.testify]
+    name = "testify"
+    url = "https://github.com/stretchr/testify"
+    [repositories.testify.paths]
+      [repositories.testify.paths.toronto]
+        Name = "testify"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/stretchr/testify"
+  [repositories.text]
+    name = "text"
+    url = "https://go.googlesource.com/text"
+    [repositories.text.paths]
+      [repositories.text.paths.toronto]
+        Name = "text"
+        Path = "/home/antonin/Code/go/.cache/govendor/golang.org/x/text"
   [repositories.toml]
     name = "toml"
     url = "https://github.com/BurntSushi/toml"
@@ -152,6 +515,9 @@ Author = "antonin"
       [repositories.toml.paths.macbook-de-k0pernicus]
         Name = "toml"
         Path = "/Users/antonin/Code/go/src/github.com/BurntSushi/toml"
+      [repositories.toml.paths.toronto]
+        Name = "toml"
+        Path = "/home/antonin/Code/go/src/github.com/BurntSushi/toml"
   [repositories.tools]
     name = "tools"
     url = "https://go.googlesource.com/tools"
@@ -159,6 +525,23 @@ Author = "antonin"
       [repositories.tools.paths.macbook-de-k0pernicus]
         Name = "tools"
         Path = "/Users/antonin/Code/go/src/golang.org/x/tools"
+      [repositories.tools.paths.toronto]
+        Name = "tools"
+        Path = "/home/antonin/Code/go/src/golang.org/x/tools"
+  [repositories.urlesc]
+    name = "urlesc"
+    url = "https://github.com/PuerkitoBio/urlesc"
+    [repositories.urlesc.paths]
+      [repositories.urlesc.paths.toronto]
+        Name = "urlesc"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/opennota/urlesc"
+  [repositories.viper]
+    name = "viper"
+    url = "https://github.com/spf13/viper"
+    [repositories.viper.paths]
+      [repositories.viper.paths.toronto]
+        Name = "viper"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/spf13/viper"
   [repositories.website]
     name = "website"
     url = "https://github.com/k0pernicus/website"
@@ -166,6 +549,23 @@ Author = "antonin"
       [repositories.website.paths.macbook-de-k0pernicus]
         Name = "website"
         Path = "/Users/antonin/Documents/website"
+      [repositories.website.paths.toronto]
+        Name = "website"
+        Path = "/home/antonin/Documents/website"
+  [repositories.websocket]
+    name = "websocket"
+    url = "https://github.com/gorilla/websocket"
+    [repositories.websocket.paths]
+      [repositories.websocket.paths.toronto]
+        Name = "websocket"
+        Path = "/home/antonin/Code/go/.cache/govendor/github.com/gorilla/websocket"
+  [repositories."yaml.v2"]
+    name = "yaml.v2"
+    url = "https://gopkg.in/yaml.v2"
+    [repositories."yaml.v2".paths]
+      [repositories."yaml.v2".paths.toronto]
+        Name = "yaml.v2"
+        Path = "/home/antonin/Code/go/.cache/govendor/gopkg.in/yaml.v2"
   [repositories.zou]
     name = "zou"
     url = "https://github.com/k0pernicus/zou"
@@ -173,6 +573,10 @@ Author = "antonin"
       [repositories.zou.paths.macbook-de-k0pernicus]
         Name = "zou"
         Path = "/Users/antonin/Code/rust/zou"
+      [repositories.zou.paths.toronto]
+        Name = "zou"
+        Path = "/home/antonin/Code/zou"
 
 [group]
   macbook-de-k0pernicus = ["goyave", "zou", "goyave_conf", "website", "arOS"]
+  toronto = ["rls_vscode", "snatch", "afero", "goyave", "goyave_conf", "zou"]
